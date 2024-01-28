@@ -15,6 +15,12 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+
+                    <div>
+                     <a href="{{ url('admin/dashboard') }}">
+                        <button class="mt-4">Click Me!</button>
+                    </a>
+                    </div>
                 </div>
             </div>
         </div>
