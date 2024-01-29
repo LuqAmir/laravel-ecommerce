@@ -55,6 +55,7 @@
     <script src="{{ asset('admin/js/dataTables.bootstrap4.js') }}"></script>
     <!-- End custom js for this page-->
 
-@livewireScripts
+    @livewireScripts
+    @stack('script')
 </body>
 </html>
